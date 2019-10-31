@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul {
+                list-style: none;
+                padding: 0px;
+            }
+            ul li {
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .upperDiv {
+                background-image: url("./background.png");
+                background-repeat: no-repeat; 
+                background-size: cover;
+                width: 100%;
+                height: 700px;
+                display: flex;
+                flex-direction: column;
+            }
+            .navBar, .icons{
+                display: flex;
+                justify-content: center;
+                height: 20%;
+            }
+            .navBar p {
+                display: inline-block;
+                width: 20%;
+                text-align: center;
+                color: white;
+                font-size: 20px;
+            }
+            .status {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 60%;
+            }
+            .status p, .status h1 {
+                display: block;
+                color: white;
+                font-weight: bold;
+                margin-bottom: 0;
+            }
+            .buttonGroup .button{
+                display: inline-block;
+                vertical-align: middle;
+                text-align: center;
+                background-color: green;
+                border-radius: 5px;
+                width: 150px;
+                height: 30px;
+                margin-top: 10px;
+                padding: 10px;
+                
+            }
+            .buttonGroup .button span {
+                color: white;
+            }
+            .icons {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .lowerDiv {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                margin-top: 20px;
+            }
+            .card {
+                display: flex;
+                justify-content: space-around;
+                padding: 20px;
+                width: 80%;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            }
+            .selfIntro {
+                width: 40%;
+            }
+            .contactInfo {
+                width: 40%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="upperDiv">
+            <div class="navBar">
+                <p>ABOUT</p>
+                <p>SKILLS</p>
+                <p>PORTFOLIO</p>
+                <p>EXPERIENCE</p>
+                <p>CONTACT</p>
+            </div>
+            <div class="status">
+                <img src="./icon.png" wdith="150" height="150">
+                <h1>Real Chiu</h1>
+                <p>Assistant Technical Analyst in OOCL</p>
+                <div class="buttonGroup">
+                    <div class="button">
+                        <span>Contact Me</span>
+                    </div>
+                    <div class="button">
+                        <span>Download CV</span>
+                    </div>
+                </div>
+            </div>
+            <div class="icons">
+                <img src="./icon2.png" width="50" height="50">
+                <img src="./icon2.png" width="50" height="50">
+                <img src="./icon2.png" width="50" height="50">
+                <img src="./icon2.png" width="50" height="50">
+            </div>
+        </div>
+        <div class="lowerDiv">
+            <div class="card">
+                <div class="selfIntro">
+                    <h1>About</h1>
+                    <p>
+                        Hello! My name is Real and I am an Assistant Technical Analyst in OOCL.
+                        It is a great experience to create my own resume with CSS and html.
+                        I am sure this practical experience will benefit me a lot in the future!
+
+                        Thank you for visiting here!
+                    </p>
+                </div>
+                <div class="contactInfo">
+                    <h1>Basic Information</h1>
+                    <ul>
+                        <li>Ages: 22</li>
+                        <li>Email: real.chiu@oocl.com</li>
+                        <li>Phone: 12345678</li>
+                        <li>Address: Science Park 10W</li>
+                        <li>Language: English, Chinese, Mandarin</li>
+                    </ul>
+                </div>
+            </div>
+        </div >
+    </body>
+</html>
